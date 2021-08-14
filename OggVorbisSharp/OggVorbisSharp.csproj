@@ -3,6 +3,15 @@
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Version>1.0.0</Version>
+        <PackageId>OggVorbisSharp</PackageId>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/SamboyCoding/OggVorbisSharp.git</RepositoryUrl>
+        <Description>Managed bindings for LibOgg 1.3.5 and LibVorbis 1.3.7</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
 </Project>
