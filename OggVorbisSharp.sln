@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OggVorbisSharp", "OggVorbisSharp\OggVorbisSharp.csproj", "{DC83ABB2-F8D9-45C9-BBC8-B163CB9703AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC83ABB2-F8D9-45C9-BBC8-B163CB9703AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC83ABB2-F8D9-45C9-BBC8-B163CB9703AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC83ABB2-F8D9-45C9-BBC8-B163CB9703AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC83ABB2-F8D9-45C9-BBC8-B163CB9703AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
