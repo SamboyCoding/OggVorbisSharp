@@ -84,10 +84,10 @@ namespace OggVorbisSharp
 
     public unsafe struct vorbis_comment
     {
-        public char** user_comments;
+        public byte** user_comments;
         public int* comment_lengths;
         public int comments;
-        public char* vendor;
+        public byte* vendor;
     }
 
     public static unsafe class Vorbis
@@ -130,7 +130,7 @@ namespace OggVorbisSharp
         public static extern void vorbis_comment_add_tag(vorbis_comment* vc, byte* tag, byte* contents);
 
         [DllImport(LibraryName, ExactSpelling = true)]
-        public static extern char* vorbis_comment_query(vorbis_comment* vc, byte* tag, int count);
+        public static extern byte* vorbis_comment_query(vorbis_comment* vc, byte* tag, int count);
 
         [DllImport(LibraryName, ExactSpelling = true)]
         public static extern int vorbis_comment_query_count(vorbis_comment* vc, byte* tag);
@@ -151,7 +151,7 @@ namespace OggVorbisSharp
         public static extern double vorbis_granule_time(vorbis_dsp_state* v, long granulepos);
 
         [DllImport(LibraryName, ExactSpelling = true)]
-        public static extern char* vorbis_version_string();
+        public static extern byte* vorbis_version_string();
 
         [DllImport(LibraryName, ExactSpelling = true)]
         public static extern int vorbis_analysis_init(vorbis_dsp_state* v, vorbis_info* vi);
